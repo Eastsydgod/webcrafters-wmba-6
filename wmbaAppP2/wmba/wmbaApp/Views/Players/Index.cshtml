@@ -1,0 +1,186 @@
+﻿@model IEnumerable<wmbaApp.Models.Player>
+
+<partial name="_ViewHeading" />
+<form asp-action="Index" method="get">
+    <input type="hidden" name="sortDirection" value="@ViewData["sortDirection"]" />
+    <input type="hidden" name="sortField" value="@ViewData["sortField"]" />
+    
+    <br />
+    <div class="form-horizontal">
+        <button class="btn btn-center @ViewData["Filtering"] btnFilter" type="button" data-bs-toggle="collapse" id="filterToggle" data-bs-target="#collapseFilter" aria-expanded="false" aria-controls="collapseFilter">
+            <p class="filSearch">Search <i class="fa-solid fa-magnifying-glass"></i> </p>  @ViewData["numberFilters"]
+        </button>
+        <div class="collapse @ViewData["ShowFilter"]" id="collapseFilter">
+            <div class="card card-body bg-light">
+                <div class="row">
+
+                    <div class="col-md-4 activeView" style="margin-left: 10px;">
+                        <label class="control-label">Click to view Inactive Players:</label>
+                        <a id="toggleTeams" asp-action="InactiveIndex" class="btn btn-outline-dark btn-center view deactivateTeam btn-active-toggle" title="Click to toggle between active and inactive teams">
+                            <i class="fa-solid fa-toggle-off"></i>
+                            Currently viewing: Active Players
+                        </a>
+                    </div>
+
+                    <div class="col-md-4">
+                        <label class="control-label">Filter by Teams:</label>
+                        @Html.DropDownList("TeamID", null, "All Teams", htmlAttributes: new { @class = "form-control" })
+                    </div>
+
+                    <div class="col-md-4">
+                        <label class="control-label">Search by Player Name/Team Name:</label>
+                        @Html.TextBox("SearchString", null, new { @class = "form-control" })
+                    </div>
+                    <div class="col-md-4 align-self-end">
+                        <input type="submit" name="actionButton" value="Filter" class="btn btn-outline-primary" id="filterBtn" onclick="change()"/>
+                        <a asp-action="Index" class="btn btn-outline-dark">Clear</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    @if (!string.IsNullOrEmpty(ViewBag.SuccessMessage))
+    {
+        <div id="successMessage" class="alert alert-success">
+            @ViewBag.SuccessMessage
+        </div>
+    }
+
+  
+    <table class="table playerTable">
+        <thead>
+            <tr>
+                <th class="d-sm-table-cell d-md-table-cell">
+                    <h6 class="non-button-input" id="heading">
+                        Name
+                    </h6>
+                </th>
+
+               
+                <th class="d-sm-table-cell d-md-table-cell">
+                    <h6 class="non-button-input" id="heading">
+                        Team
+                    </h6>
+                </th>
+                <th class="d-none d-lg-table-cell">
+                    <h6 class="non-button-input" id="heading">
+                        Division
+                    </h6>
+                </th>
+                <th style="min-width:120px" >
+                    @if (!User.IsInRole("ScoreKeeper"))
+                    {
+                        <a asp-action="Create" class="btn btn-sm  btnCreateTeam" role="button" data-bs-toggle="tooltip" title="Create New @ViewData["ControllerFriendlyName"]">
+                            <span></span><span></span><span></span><span></span>
+                            <strong> Create </strong>
+                        </a>
+                    }
+                </th>
+
+                <th class="d-none d-lg-table-cell" style="min-width:120px;">
+                    <div id="customModal" class="modal">
+                        <div class="modal-content">
+                            <span class="close" id="close" onclick="closeModal()">X</span>
+                            <b><p id="notify" style="margin: 0 20px;">Are you sure you want to delete all players?.  <br /><br />If yes, click delete twice.<br> <br><br> </br></p></b>
+                            <b><p id="required"></p></b>
+                            <i></i>
+                            <i class="fa-solid fa-triangle-exclamation text-center fa-3x triangle"></i>
+                            <i id="error" class="fa-solid fa-xmark fa-f6"></i>
+                            <a asp-action="Delete" class="btn btn-center btn-sm  " role="button" data-bs-toggle="tooltip" title="Delete all Players">
+                                <span></span><span></span><span></span><span></span>
+                                <strong> Delete </strong>
+                            </a>
+                        </div>
+                    </div>
+                    @if (User.IsInRole("Admin"))
+                    {
+                        <input value="End of Season" class="btn btn-sm btn-outline-dark  d-none d-lg-block btnCreateTeam gameCreateBtn createTeam me-2 ml-md-9" role="button" data-bs-toggle="tooltip" title="Delete all Games" onclick="openModal()" style="min-width: 110px; " />
+
+
+                    }
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td class="d-sm-table-cell d-md-table-cell">
+                        @Html.DisplayFor(modelItem => item.FullName)
+                    </td>
+                    <td class="d-sm-table-cell d-md-table-cell">
+                        @Html.DisplayFor(modelItem => item.Team.TmName)
+                    </td>
+                    <td class="d-none d-lg-table-cell">
+                        @Html.DisplayFor(modelItem => item.Team.Division.DivName)
+                    </td>
+                    <td class="alignPlayers">
+                       
+                        @if (!User.IsInRole("ScoreKeeper"))
+                        {
+                            <a asp-action="Edit" asp-route-id="@item.ID" class="btn btn-sm " role="button" data-bs-toggle="tooltip" title="Edit @ViewData["ControllerFriendlyName"]">
+                                <span></span><span></span><span></span><span></span>
+                                EDIT
+                            </a>
+                        }
+                        <a asp-action="Details" asp-route-id="@item.ID" class="btn btn-sm " role="button" data-bs-toggle="tooltip" title="@ViewData["ControllerFriendlyName"] Details">
+                            <span></span><span></span><span></span><span></span>
+                            DETAILS
+                        </a>
+                        @if (!User.IsInRole("ScoreKeeper"))
+                        {
+                            <a asp-action="MakeInactive" asp-route-id="@item.ID" class="btn btn-sm " role="button" data-bs-toggle="tooltip" title="Deactivate @ViewData["ControllerFriendlyName"]">
+                                <span></span><span></span><span></span><span></span>
+                                ACTIVE
+                            </a>
+                        }
+                        
+                    </td>
+
+                </tr>
+            }
+        </tbody>
+    </table>
+    <partial name="_PagingNavBar" />
+    <a href="@Url.Action("Index", "Home")" class="btn d-none d-lg-block  btn-left btn-outline-dark">Back</a>
+</form>
+
+
+<br />
+<br />
+
+@section Scripts {
+    <script type="text/javascript">
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl)
+        })
+    </script>
+
+    <script type="text/javascript">
+        GenerateContextHelp([
+            "<p>This is the Players page, where you can manage player information. You can create, edit, or deactivate players using the buttons provided.</p>",
+            "<p>Clicking the 'Create' button allows you to add a new player to the system.</p>",
+            "<p>You can search for players by their name using the search box provided.</p>",
+            "<p>You can sort for players by clicking the 'Name' heading or the arrow beside it.</p>",
+            "<P>You can adjust the number of players displayed by clicking on the button below, which indicates the total page count such as '1 of 10'. This feature allows you to navigate between pages by skipping forward or returning to previous pages based on the page number.</p>",
+            "<p>Clicking the 'Edit' button lets you modify the details of an existing player.</p>",
+            "<p>Clicking the 'Active' button deactivates a player and stores them in the database. Deactivated players can be viewed by toggling the search bar to 'Currently viewing inactive players.' You can reactivate players from the deactivated players page.</p>"
+        ]);
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            // Function to fade out the success message after 3 seconds (adjust as needed)
+            setTimeout(function () {
+                $('#successMessage').fadeOut('slow');
+            }, 2000); // 3000 milliseconds = 3 seconds
+
+            // Optional: You can also close the success message when clicking on it
+            $('#successMessage').click(function () {
+                $(this).fadeOut('slow');
+            });
+        });
+    </script>
+}
+

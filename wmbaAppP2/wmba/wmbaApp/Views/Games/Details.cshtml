@@ -1,0 +1,253 @@
+@model wmbaApp.Models.Game
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1 class="text-center">@Html.DisplayFor(model => model.FullVersus)</h1>
+@if (!string.IsNullOrEmpty(ViewBag.SuccessMessage))
+{
+    <div id="successMessage" class="alert alert-success">
+        @ViewBag.SuccessMessage
+    </div>
+}
+<div>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.HomeTeam)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.HomeTeam.TmName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.AwayTeam)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.AwayTeam.TmName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.StartTimeSummary)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.StartTimeSummary)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.EndTimeSummary)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.EndTimeSummary)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.GameLocation)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.GameLocation.Name)
+        </dd>
+    </dl>
+</div>
+<hr />
+@{
+    // Retrieve team percentages from ViewData
+    var homeTeamStats = ViewData["HomeTeamPercentage"] as double?;
+    var awayTeamStats = ViewData["AwayTeamPercentage"] as double?;
+}
+<form>
+    <div class="row">
+        <div class="col-md-6">
+            <h3>Home Team Lineup</h3>
+            <table class="table table-striped table-bordered">
+                <thead>
+                    <tr>
+                        <th>Player Name</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model.HomeLineup != null)
+                    {
+                        foreach (var playerLineup in Model.HomeTeam.Players.Where(p => p.PlayerLineups.Any(pl => pl.PlayerID == p.ID && p.IsActive == true)).ToList() as List<wmbaApp.Models.Player>)
+                        {
+                            <tr>
+                                <td class="font-italic font-weight-bold">@playerLineup.FullName</td>
+                            </tr>
+                        }
+
+                        <div class="team-stats">
+                            @if (ViewData["HasHomePlayers"] != null && (bool)ViewData["HasHomePlayers"])
+                            {
+                                <p class="percentage">
+                                    The home team has <span>@homeTeamStats.Value.ToString("F2")%</span> chance of winning.
+                                </p>
+                            }
+                            else
+                            {
+                                <p class="percentage">
+                                    The home team has no players, please add your players and try again.
+                                </p>
+                            }
+                        </div>
+                    }
+                    else
+                    {
+                        <p class="no-players-message">No players found for the home team.</p>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+        <div class="col-md-6">
+            <h3>Visitor Team Lineup</h3>
+            <table class="table table-striped table-bordered">
+                <thead>
+                    <tr>
+                        <th>Player Name</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model.AwayLineup != null)
+                    {
+                        foreach (var playerLineup in Model.AwayTeam.Players.Where(p => p.PlayerLineups.Any(pl => pl.PlayerID == p.ID && p.IsActive == true)).ToList() as List<wmbaApp.Models.Player>)
+                        {
+                            <tr>
+                                <td class="font-italic font-weight-bold">@playerLineup.FullName</td>
+                            </tr>
+                        }
+
+                        <div class="team-stats">
+                            @if (ViewData["HasAwayPlayers"] != null && (bool)ViewData["HasAwayPlayers"])
+                            {
+                                <p class="percentage">
+                                    The home team has <span>@awayTeamStats.Value.ToString("F2")%</span> chance of winning.
+                                </p>
+                            }
+                            else
+                            {
+                                <p class="percentage">
+                                    The away team has no players, please add your players and try again.
+                                </p>
+                            }
+                        </div>
+                    }
+                    else
+                    {
+                        <p class="no-players-message">No players found for the away team.</p>
+                    }
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+
+    <a asp-action="Index" class="text-primary text-left" style="min-width: 130px; font-weight: 700;">Back </a>
+</form>
+
+
+
+<div class="text-center" style="margin-top: 50px;">
+    @{
+        if (User.IsInRole("Admin") || User.IsInRole("Convenor"))
+        {
+            if (Model.GameStartTime <= DateTime.Now && Model.GameEndTime >= DateTime.Now)
+                if (Model.HomeLineup != null && Model.HomeLineup.PlayerLineups.Count > 4)
+                    if (Model.Innings.Count < 3)
+                    {
+                        <a asp-action="StartGame" onclick="start()" asp-route-id="@Model.ID" id="clickGame" class="btn btn-sm " role="button" data-bs-toggle="tooltip" title="Start this game" style="min-width: 100px;">
+                            <span></span><span></span><span></span><span></span>
+                            HOME GAME
+                        </a>
+                        <a asp-action="StartAwayGame" onclick="start()" asp-route-id="@Model.ID" id="clickGame" class="btn btn-sm " role="button" data-bs-toggle="tooltip" title="Start this game" style="min-width: 100px;">
+                            <span></span><span></span><span></span><span></span>
+                            AWAY GAME
+                        </a>
+                    }
+                    else
+                    {
+                        //put a button to redirect to game results view (N.Y.I) here
+                    }
+        }
+        else
+        {
+            if (User.IsInRole(Model.HomeTeam.TmName))
+            {
+                if (Model.GameStartTime <= DateTime.Now && Model.GameEndTime >= DateTime.Now)
+                    if (Model.HomeLineup != null && Model.HomeLineup.PlayerLineups.Count > 4)
+                        if (Model.Innings.Count < 3)
+                        {
+                            <a asp-action="StartGame" onclick="start()" asp-route-id="@Model.ID" id="clickGame" class="btn btn-sm " role="button" data-bs-toggle="tooltip" title="Start this game" style="min-width: 100px;">
+                                <span></span><span></span><span></span><span></span>
+                                START GAME
+                            </a>
+                        }
+                        else
+                        {
+                            //put a button to redirect to game results view (N.Y.I) here
+                        }
+            }
+            else
+            {
+                if (Model.GameStartTime <= DateTime.Now && Model.GameEndTime >= DateTime.Now)
+                    if (Model.HomeLineup != null && Model.HomeLineup.PlayerLineups.Count > 4)
+                        if (Model.Innings.Count < 3)
+                        {
+                            <a asp-action="StartAwayGame" onclick="start()" asp-route-id="@Model.ID" id="clickGame" class="btn btn-sm" role="button" data-bs-toggle="tooltip" title="Start this game" style="min-width: 100px;">
+                                <span></span><span></span><span></span><span></span>
+                                START GAME
+                            </a>
+                        }
+                        else
+                        {
+                            //put a button to redirect to game results view (N.Y.I) here
+                        }
+            }
+        }
+    }
+
+    @{
+        bool homeLineupHasPlayers = Model.HomeLineup != null && Model.HomeTeam.Players.Any(p => p.PlayerLineups.Any(pl => pl.PlayerID == p.ID));
+        bool awayLineupHasPlayers = Model.AwayLineup != null && Model.AwayTeam.Players.Any(p => p.PlayerLineups.Any(pl => pl.PlayerID == p.ID));
+    }
+    <br />
+    @if (User.IsInRole("Admin") || User.IsInRole("Convenor"))
+    {
+        <a asp-action="Edit" asp-route-id="@Model?.ID" class="btn btn-sm" style="min-width: 100px; margin-right: 10px;">Edit Game</a>
+    }
+    @if (!User.IsInRole("ScoreKeeper"))
+    {
+        @if (homeLineupHasPlayers && awayLineupHasPlayers)
+        {
+            <a asp-action="Edit" asp-controller="Lineups" asp-route-gameId="@Model.ID" class="btn btn-sm" style="min-width: 100px; margin-right: 15px; padding-bottom: 20px;">
+                <span></span><span></span><span></span><span></span>
+                Edit Lineup
+            </a>
+        }
+        else
+        {
+            <a asp-action="Create" asp-controller="Lineups" asp-route-gameId="@Model.ID" class="btn btn-sm" style="min-width: 100px; margin-right: 15px; padding-bottom: 20px;">
+                Create Lineup
+            </a>
+        }
+    }
+    <br />
+
+
+</div>
+<br />
+<br />
+<br />
+<br />
+
+@section  Scripts {
+    <script>
+        $(document).ready(function () {
+            // Function to fade out the success message after 3 seconds (adjust as needed)
+            setTimeout(function () {
+                $('#successMessage').fadeOut('slow');
+            }, 2000); // 3000 milliseconds = 3 seconds
+
+            // Optional: You can also close the success message when clicking on it
+            $('#successMessage').click(function () {
+                $(this).fadeOut('slow');
+            });
+        });
+    </script>
+}

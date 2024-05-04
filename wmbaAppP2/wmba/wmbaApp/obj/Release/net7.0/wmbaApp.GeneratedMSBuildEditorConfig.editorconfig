@@ -1,0 +1,525 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = wmbaApp
+build_property.RootNamespace = wmbaApp
+build_property.ProjectDir = C:\Users\james\webcrafters-wmba-6\wmbaAppP2\wmba\wmbaApp\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\james\webcrafters-wmba-6\wmbaAppP2\wmba\wmbaApp
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Areas/Identity/Pages/LandingPage.razor]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcTGFuZGluZ1BhZ2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Areas/Identity/Pages/Account/ConfirmEmail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxDb25maXJtRW1haWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Areas/Identity/Pages/Account/ConfirmEmailChange.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxDb25maXJtRW1haWxDaGFuZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Areas/Identity/Pages/Account/ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Areas/Identity/Pages/Account/ForgotPasswordConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxGb3Jnb3RQYXNzd29yZENvbmZpcm1hdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Areas/Identity/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Areas/Identity/Pages/Account/LoginWith2fa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbldpdGgyZmEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Areas/Identity/Pages/Account/LoginWithRecoveryCode.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbldpdGhSZWNvdmVyeUNvZGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcQ2hhbmdlUGFzc3dvcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Areas/Identity/Pages/Account/Manage/Email.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRW1haWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Areas/Identity/Pages/Account/Manage/EnableAuthenticator.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRW5hYmxlQXV0aGVudGljYXRvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Areas/Identity/Pages/Account/Manage/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Areas/Identity/Pages/Account/Manage/PersonalData.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcUGVyc29uYWxEYXRhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Areas/Identity/Pages/Account/Manage/TwoFactorAuthentication.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcVHdvRmFjdG9yQXV0aGVudGljYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Areas/Identity/Pages/Account/Manage/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX01hbmFnZU5hdi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Areas/Identity/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3RlckNvbmZpcm1hdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Areas/Identity/Pages/Account/ResendEmailConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNlbmRFbWFpbENvbmZpcm1hdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Areas/Identity/Pages/Account/ResetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNldFBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Areas/Identity/Pages/Account/ResetPasswordConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNldFBhc3N3b3JkQ29uZmlybWF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Areas/Identity/Pages/Account/_UsersLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVXNlcnNMYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Areas/Identity/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/Coaches/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29hY2hlc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/Coaches/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29hY2hlc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/Coaches/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29hY2hlc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/Coaches/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29hY2hlc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/Coaches/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29hY2hlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/DivisionCoach/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGl2aXNpb25Db2FjaFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/DivisionCoach/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGl2aXNpb25Db2FjaFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/DivisionCoach/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGl2aXNpb25Db2FjaFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/DivisionCoach/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGl2aXNpb25Db2FjaFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/DivisionCoach/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGl2aXNpb25Db2FjaFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/Divisions/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGl2aXNpb25zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/Divisions/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGl2aXNpb25zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/Divisions/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGl2aXNpb25zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/Divisions/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGl2aXNpb25zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/Divisions/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGl2aXNpb25zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/GameLocation/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FtZUxvY2F0aW9uXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/GameLocation/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FtZUxvY2F0aW9uXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/GameLocation/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FtZUxvY2F0aW9uXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/Games/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FtZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/Games/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FtZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/Games/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FtZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/Games/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FtZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/Games/FinishedGames.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FtZXNcRmluaXNoZWRHYW1lcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/Games/GameSummary.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FtZXNcR2FtZVN1bW1hcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/Games/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FtZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/Games/MakeActive.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FtZXNcTWFrZUFjdGl2ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/Games/MakeInactive - Copy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FtZXNcTWFrZUluYWN0aXZlIC0gQ29weS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/Games/MakeInactive.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FtZXNcTWFrZUluYWN0aXZlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/Games/_addGameLocationModal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FtZXNcX2FkZEdhbWVMb2NhdGlvbk1vZGFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/Games/_GameLocationCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FtZXNcX0dhbWVMb2NhdGlvbkNyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/Home/ImportTeams.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbXBvcnRUZWFtcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/Home/UnderConstruction.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxVbmRlckNvbnN0cnVjdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/Lineups/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGluZXVwc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/Lineups/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGluZXVwc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/Lineups/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGluZXVwc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/Lookup/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9va3VwXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/Lookup/_GameLocation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9va3VwXF9HYW1lTG9jYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/Players/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWVyc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/Players/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWVyc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/Players/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWVyc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/Players/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWVyc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/Players/InactiveIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWVyc1xJbmFjdGl2ZUluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/Players/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWVyc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/Players/MakeActive.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWVyc1xNYWtlQWN0aXZlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/Players/MakeInactive.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWVyc1xNYWtlSW5hY3RpdmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/PlayerTeam/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWVyVGVhbVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/PlayerTeam/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWVyVGVhbVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/PlayerTeam/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWVyVGVhbVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/PlayerTeam/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWVyVGVhbVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/PlayerTeam/InactiveIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWVyVGVhbVxJbmFjdGl2ZUluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/PlayerTeam/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWVyVGVhbVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/PlayerTeam/MakeActive.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWVyVGVhbVxNYWtlQWN0aXZlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/PlayerTeam/MakeInactive.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWVyVGVhbVxNYWtlSW5hY3RpdmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/PlayerTeam/_TeamDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWVyVGVhbVxfVGVhbURldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/ScoreKeepingAwayTeam/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2NvcmVLZWVwaW5nQXdheVRlYW1cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/ScoreKeepingAwayTeam/_AwayLineUp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2NvcmVLZWVwaW5nQXdheVRlYW1cX0F3YXlMaW5lVXAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/ScoreKeepingAwayTeam/_BaseballDiamond.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2NvcmVLZWVwaW5nQXdheVRlYW1cX0Jhc2ViYWxsRGlhbW9uZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/ScoreKeepingAwayTeam/_HomeLineUp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2NvcmVLZWVwaW5nQXdheVRlYW1cX0hvbWVMaW5lVXAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/ScoreKeepingAwayTeam/_InningsTable.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2NvcmVLZWVwaW5nQXdheVRlYW1cX0lubmluZ3NUYWJsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/ScoreKeepingAwayTeam/_PlayByPlay.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2NvcmVLZWVwaW5nQXdheVRlYW1cX1BsYXlCeVBsYXkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/ScoreKeepingAwayTeam/_ScoreBar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2NvcmVLZWVwaW5nQXdheVRlYW1cX1Njb3JlQmFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/ScoreKeeping/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2NvcmVLZWVwaW5nXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/ScoreKeeping/_AwayLineUp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2NvcmVLZWVwaW5nXF9Bd2F5TGluZVVwLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/ScoreKeeping/_BaseballDiamond.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2NvcmVLZWVwaW5nXF9CYXNlYmFsbERpYW1vbmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/ScoreKeeping/_HomeLineUp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2NvcmVLZWVwaW5nXF9Ib21lTGluZVVwLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/ScoreKeeping/_InningsTable.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2NvcmVLZWVwaW5nXF9Jbm5pbmdzVGFibGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/ScoreKeeping/_PlayByPlay.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2NvcmVLZWVwaW5nXF9QbGF5QnlQbGF5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/ScoreKeeping/_ScoreBar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2NvcmVLZWVwaW5nXF9TY29yZUJhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/Shared/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/Shared/_BackToList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9CYWNrVG9MaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/Shared/_ButtonBar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9CdXR0b25CYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/Shared/_ButtonModal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9CdXR0b25Nb2RhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/Shared/_PageSizeModal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QYWdlU2l6ZU1vZGFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/Shared/_PagingNavBar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QYWdpbmdOYXZCYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/Shared/_ViewHeading.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WaWV3SGVhZGluZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/Statistics/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhdGlzdGljc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/Statistics/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhdGlzdGljc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/Statistics/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhdGlzdGljc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/Statistics/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhdGlzdGljc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/Statistics/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhdGlzdGljc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/Teams/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhbXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/Teams/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhbXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/Teams/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhbXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/Teams/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhbXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/Teams/InactiveIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhbXNcSW5hY3RpdmVJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/Teams/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhbXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/Teams/MakeActive.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhbXNcTWFrZUFjdGl2ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/Teams/MakeInactive.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhbXNcTWFrZUluYWN0aXZlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/UserRole/AssignTeams.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclJvbGVcQXNzaWduVGVhbXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/UserRole/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclJvbGVcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/UserRole/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclJvbGVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/james/webcrafters-wmba-6/wmbaAppP2/wmba/wmbaApp/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-n2xl5t96zo

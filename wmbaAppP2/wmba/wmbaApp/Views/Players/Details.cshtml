@@ -1,0 +1,185 @@
+﻿@model wmbaApp.Models.Player
+
+<partial name="_ViewHeading" />
+
+@if (!string.IsNullOrEmpty(ViewBag.SuccessMessage))
+{
+    <div class="alert alert-success" role="alert">
+        @ViewBag.SuccessMessage
+    </div>
+}
+<form>
+    <div>
+    <hr />
+    <div class="row">
+        <div class="col-sm-10">
+            <dl class="row">
+                <dt class="col-sm-2">
+                    @Html.DisplayNameFor(model => model.PlyrFirstName)
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.PlyrFirstName)
+                </dd>
+                <dt class="col-sm-2">
+                    @Html.DisplayNameFor(model => model.PlyrLastName)
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.PlyrLastName)
+                </dd>
+                <dt class="col-sm-2">
+                    @Html.DisplayNameFor(model => model.PlyrJerseyNumber)
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.PlyrJerseyNumber)
+                </dd>
+                <dt class="col-sm-2">
+                    @Html.DisplayNameFor(model => model.TeamID)
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.Team.TmName)
+                </dd>
+                <dt class="col-sm-2">
+                    @Html.DisplayNameFor(model => model.StatisticID)
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.StatisticID)
+                </dd>
+                <dt>
+                    <h6>Rating</h6>
+                </dt>
+                 <dd class="col-sm-2">
+                     
+                        @for (int i = 1; i <= 4; i++) 
+                        {
+                            <span class="star @(i <= Model.Statistics.Rating ? "gold" : "")">&#9733;</span>
+                        }
+                 
+                </dd>
+            </dl>
+
+        </div>
+        <div class="col-sm-2">
+            <img src="~/Image/Wmba Player.jpg" class="img-thumbnail playerAvatar" >
+
+        </div>
+    </div>
+</div>
+
+@* Stats table *@
+<table class="table">
+    <thead>
+        <tr>
+            <th class="d-sm-table-cell d-md-table-cell">
+                @Html.DisplayNameFor(model => model.Statistics.StatsGP)
+            </th>
+            <th class="d-sm-table-cell d-md-table-cell">
+                @Html.DisplayNameFor(model => model.Statistics.StatsPA)
+            </th>
+            <th class="d-sm-table-cell d-md-table-cell">
+                @Html.DisplayNameFor(model => model.Statistics.StatsAB)
+            </th>
+            <th class="d-sm-table-cell d-md-table-cell">
+                @Html.DisplayNameFor(model => model.Statistics.StatsAVG)
+            </th>
+            <th class="d-sm-table-cell d-md-table-cell">
+                @Html.DisplayNameFor(model => model.Statistics.StatsOBP)
+            </th>
+            <th class="d-none d-lg-table-cell">
+                @Html.DisplayNameFor(model => model.Statistics.StatsOPS)
+            </th>
+            <th class="d-none d-lg-table-cell"> 
+                @Html.DisplayNameFor(model => model.Statistics.StatsSLG)
+            </th>
+            <th class="d-none d-lg-table-cell">
+                @Html.DisplayNameFor(model => model.Statistics.StatsH)
+            </th class="d-none d-lg-table-cell">
+            <th class="d-none d-lg-table-cell">
+                @Html.DisplayNameFor(model => model.Statistics.StatsR)
+            </th>
+            <th class="d-none d-lg-table-cell">
+                @Html.DisplayNameFor(model => model.Statistics.StatsK)
+            </th>
+            <th class="d-none d-lg-table-cell">
+                @Html.DisplayNameFor(model => model.Statistics.StatsHR)
+            </th>
+            <th class="d-none d-lg-table-cell">
+                @Html.DisplayNameFor(model => model.Statistics.StatsRBI)
+            </th>
+            <th class="d-none d-lg-table-cell">
+                @Html.DisplayNameFor(model => model.Statistics.StatsBB)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model.Statistics != null)
+        {
+             
+            <tr>
+                <td class="d-sm-table-cell d-md-table-cell">
+                    @Html.DisplayFor(modelItem => modelItem.Statistics.StatsGP)
+                </td>
+                <td class="d-sm-table-cell d-md-table-cell">
+                    @Html.DisplayFor(modelItem => modelItem.Statistics.StatsPA)
+                </td>
+                <td class="d-sm-table-cell d-md-table-cell">
+                    @Html.DisplayFor(modelItem => modelItem.Statistics.StatsAB)
+                </td>
+                <td class="d-sm-table-cell d-md-table-cell">
+                    @Html.DisplayFor(modelItem => modelItem.Statistics.StatsAVG)
+                </td>
+                <td class="d-sm-table-cell d-md-table-cell">
+                    @Html.DisplayFor(modelItem => modelItem.Statistics.StatsOBP)
+                </td>
+                <td class="d-none d-lg-table-cell">
+                    @Html.DisplayFor(modelItem => modelItem.Statistics.StatsOPS)
+                </td>
+                <td class="d-none d-lg-table-cell">
+                    @Html.DisplayFor(modelItem => modelItem.Statistics.StatsSLG)
+                </td>
+                <td class="d-none d-lg-table-cell">
+                    @Html.DisplayFor(modelItem => modelItem.Statistics.StatsH)
+                </td>
+                <td class="d-none d-lg-table-cell">
+                    @Html.DisplayFor(modelItem => modelItem.Statistics.StatsR)
+                </td>
+                <td class="d-none d-lg-table-cell">
+                    @Html.DisplayFor(modelItem => modelItem.Statistics.StatsK)
+                </td>
+                <td class="d-none d-lg-table-cell">
+                    @Html.DisplayFor(modelItem => modelItem.Statistics.StatsHR)
+                </td>
+                <td class="d-none d-lg-table-cell">
+                    @Html.DisplayFor(modelItem => modelItem.Statistics.StatsRBI)
+                </td>
+                <td class="d-none d-lg-table-cell">
+                    @Html.DisplayFor(modelItem => modelItem.Statistics.StatsBB)
+                </td>
+            </tr>
+        
+        }
+        else
+        {
+            <tr>
+                <td colspan="14">No statistics available</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div>
+    @if (!User.IsInRole("ScoreKeeper"))
+    {
+        if (Model.IsActive)
+        {
+            <a asp-action="Edit" asp-route-id="@Model?.ID" class="btn btn-outline-dark">Edit</a>
+        }
+    }
+     <a asp-action="Index" class="btn btn-outline-dark">Back </a>
+</div>
+
+</form>
+
+@section scripts{
+    
+}
