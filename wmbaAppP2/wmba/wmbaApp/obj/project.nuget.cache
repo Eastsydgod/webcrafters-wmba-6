@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZZ663ad3lQaz8fKt8PSbXhR/2elNUsFiy9OPswv8XvLGklktGsRb7aRekb7wEGIT18cFgZDd8Mg36B0D44BScA==",
+  "dgSpecHash": "xXCiarPaYOBLBkDrMouv4qO8OyIBNgA57EaGiPvbWCd2+Bqx53sGmRJUP4n1BcnSkt2mcmJS13VZM8CuuCiVGw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\james\\webcrafters-wmba-6\\wmbaAppP2\\wmba\\wmbaApp\\wmbaApp.csproj",
+  "projectFilePath": "C:\\Users\\james\\wmbaApp\\wmbaAppP2\\wmba\\wmbaApp\\wmbaApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\james\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\james\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

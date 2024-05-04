@@ -13300,11 +13300,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\james\\webcrafters-wmba-6\\wmbaAppP2\\wmba\\wmbaApp\\wmbaApp.csproj",
+      "projectUniqueName": "C:\\Users\\james\\wmbaApp\\wmbaAppP2\\wmba\\wmbaApp\\wmbaApp.csproj",
       "projectName": "wmbaApp",
-      "projectPath": "C:\\Users\\james\\webcrafters-wmba-6\\wmbaAppP2\\wmba\\wmbaApp\\wmbaApp.csproj",
+      "projectPath": "C:\\Users\\james\\wmbaApp\\wmbaAppP2\\wmba\\wmbaApp\\wmbaApp.csproj",
       "packagesPath": "C:\\Users\\james\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\james\\webcrafters-wmba-6\\wmbaAppP2\\wmba\\wmbaApp\\obj\\",
+      "outputPath": "C:\\Users\\james\\wmbaApp\\wmbaAppP2\\wmba\\wmbaApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
